@@ -23,9 +23,9 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import HomePage from './pages/Home';
-import EventsPage from './pages/Events';
+import EventsPage, { loader as eventsLoader } from './pages/Events';
 import EventDitailPage from './pages/EventDetails';
-import NewEventPage, { loader as eventsLoader } from './pages/NewEvent';
+import NewEventPage from './pages/NewEvent';
 import EditEventPage from './pages/EditEvent';
 import RootLayout from './pages/Root';
 import EventsRootLayout from './pages/EventsRoot';
